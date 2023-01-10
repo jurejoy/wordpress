@@ -39,7 +39,7 @@ env:
   CONTAINER_NAME: "wordpress"
   RESOURCE_GROUP: "wordpress"
   CLUSTER_NAME: "wordpress"
-  DEPLOYMENT_MANIFEST_PATH: "*.yaml"
+  DEPLOYMENT_MANIFEST_PATH: "kustomization.yaml"
 
 jobs:
   deploy:
