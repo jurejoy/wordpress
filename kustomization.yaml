@@ -5,3 +5,6 @@ secretGenerator:
 resources:
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
+metadata:
+  annotations:
+          Validate=false
