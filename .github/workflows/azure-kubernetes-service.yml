@@ -39,7 +39,7 @@ env:
   CONTAINER_NAME: "wordpress"
   RESOURCE_GROUP: "wordpress"
   CLUSTER_NAME: "wordpress"
-  DEPLOYMENT_MANIFEST_PATH: "deployment/**"
+  DEPLOYMENT_MANIFEST_PATH: "deployment"
 
 jobs:
   deploy:
