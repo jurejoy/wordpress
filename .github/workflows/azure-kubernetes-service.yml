@@ -67,6 +67,6 @@ jobs:
 
       # Deploys application based on given manifest file
       - name: Deploys application
-      - uses: tale/kubectl-action@v1
+        uses: tale/kubectl-action@v1
       - run: kubectl apply -k ./
 
